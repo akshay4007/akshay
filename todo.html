@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <a class="navbar-brand" href="#">My ToDo list</a>
+        <div class="ml-auto">
+            <button id="list" onclick="displaylist();">ToDo list</button>
+            <button id="logout" onclick="logout();">logout</button>
+        </div>
+    </nav>
+
+    <div class="table-responsive" style="overflow:auto">
+        <table id="todotable" class="table table-striped table-hover table-borderd">
+            <thead>
+                <!-- <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">task description</th>
+                    <th scope="col">status</th>
+                </tr> -->
+            </thead>
+
+
+        </table>
+
+
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
